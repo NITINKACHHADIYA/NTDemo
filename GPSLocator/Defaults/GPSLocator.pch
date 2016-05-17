@@ -1,0 +1,17 @@
+//
+//  GPSLocator.pch
+//  GPSLocator
+//
+//  Created by nitin on 17/05/16.
+//  Copyright © 2016 organization. All rights reserved.
+//
+
+#ifndef GPSLocator_pch
+#define GPSLocator_pch
+
+#import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
+
+#import "NTDefines.h"
+
+#endif /* GPSLocator_pch */
