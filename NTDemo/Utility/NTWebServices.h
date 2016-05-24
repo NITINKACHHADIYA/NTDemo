@@ -28,30 +28,4 @@ typedef NS_ENUM(NSInteger,PickerType){
 
 @end
 
-#define kEncriptionKey @"GPSLocator-(Encription)-Key"
-
-#pragma mark - registrtion
-
-#define kAPIRegistration                    @"registration"
-#define kAPICity                            @"get_city"
-#define kAPIState                           @"get_state"
-
-
-#define kAPIPostFirstName                   @"fname"
-#define kAPIPostLastName                    @"lname"
-#define kAPIPostMobileNo                    @"mnum"
-#define kAPIPostEmail                       @"email"
-#define kAPIPostAge                         @"age"
-#define kAPIPostGender                      @"gender"
-#define kAPIPostCity                        @"city"
-#define kAPIPostState                       @"state"
-#define kAPIPostPostalCode                  @"postal_code"
-#define kAPIPostImage                       @"user_image"
-#define kAPIPostMethod                      @"method"
-
-#define kAPIGetStatus                       @"status"
-
-#define kAPIGetCityId                       @"city_id"
-#define kAPIGetCityName                     @"city_name"
-#define kAPIGetStateId                      @"state_id"
-#define kAPIGetStateName                    @"state_name"
+#define kEncriptionKey @"-(Encription)-Key"

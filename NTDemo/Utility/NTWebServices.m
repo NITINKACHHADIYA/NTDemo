@@ -13,11 +13,11 @@
 
 +(NSString *)APIMainLink{
     
-    return @"http://trafficalertaustralia.com/web-services/registration/";
+    return @"";
 }
 +(NSString *)APIImageLink{
     
-    return @"http://trafficalertaustralia.com/web-services/";
+    return @"";
 }
 +(NSString *)API:(NSString *)APIs{
     

@@ -21,7 +21,7 @@
 +(void)somethingWentWrong{
     
     UIAlertAction *Ok=[UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {}];
-    [NTFunctions AlertViewWithTitle:@"Server Error" subTitle:@"We're sorry! The GPSLocator encountered an error and was unable to complete your request. Please try again later." actions:@[Ok]];
+    [NTFunctions AlertViewWithTitle:@"Server Error" subTitle:@"We're sorry! The ## encountered an error and was unable to complete your request. Please try again later." actions:@[Ok]];
 }
 +(void)applicationUnderMantainance{
     

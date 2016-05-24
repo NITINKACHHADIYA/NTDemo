@@ -59,7 +59,6 @@
 		312839361CF49FDC005C8B9B /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 312838EA1CF49FDC005C8B9B /* RNEncryptor.m */; settings = {ASSET_TAGS = (); }; };
 		312839371CF49FDC005C8B9B /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 312838ED1CF49FDC005C8B9B /* TPKeyboardAvoidingScrollView.m */; settings = {ASSET_TAGS = (); }; };
 		312839381CF49FDC005C8B9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 312838EE1CF49FDC005C8B9B /* main.m */; settings = {ASSET_TAGS = (); }; };
-		312839391CF49FDC005C8B9B /* GPSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 312838F11CF49FDC005C8B9B /* GPSModel.m */; settings = {ASSET_TAGS = (); }; };
 		3128393A1CF49FDC005C8B9B /* NTApis.m in Sources */ = {isa = PBXBuildFile; fileRef = 312838F51CF49FDC005C8B9B /* NTApis.m */; settings = {ASSET_TAGS = (); }; };
 		3128393B1CF49FDC005C8B9B /* NTDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 312838F71CF49FDC005C8B9B /* NTDefines.m */; settings = {ASSET_TAGS = (); }; };
 		3128393C1CF49FDC005C8B9B /* NTFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 312838F91CF49FDC005C8B9B /* NTFunctions.m */; settings = {ASSET_TAGS = (); }; };
@@ -176,8 +175,6 @@
 		312838EC1CF49FDC005C8B9B /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		312838ED1CF49FDC005C8B9B /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		312838EE1CF49FDC005C8B9B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NTDemo/main.m; sourceTree = SOURCE_ROOT; };
-		312838F01CF49FDC005C8B9B /* GPSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSModel.h; sourceTree = "<group>"; };
-		312838F11CF49FDC005C8B9B /* GPSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSModel.m; sourceTree = "<group>"; };
 		312838F41CF49FDC005C8B9B /* NTApis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTApis.h; sourceTree = "<group>"; };
 		312838F51CF49FDC005C8B9B /* NTApis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTApis.m; sourceTree = "<group>"; };
 		312838F61CF49FDC005C8B9B /* NTDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTDefines.h; sourceTree = "<group>"; };
@@ -455,8 +452,6 @@
 		312838EF1CF49FDC005C8B9B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				312838F01CF49FDC005C8B9B /* GPSModel.h */,
-				312838F11CF49FDC005C8B9B /* GPSModel.m */,
 			);
 			name = Model;
 			path = NTDemo/Model;
@@ -590,7 +585,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312839391CF49FDC005C8B9B /* GPSModel.m in Sources */,
 				312839111CF49FDC005C8B9B /* UIColor+NT.m in Sources */,
 				3128393B1CF49FDC005C8B9B /* NTDefines.m in Sources */,
 				312839301CF49FDC005C8B9B /* UIView+WebCacheOperation.m in Sources */,
